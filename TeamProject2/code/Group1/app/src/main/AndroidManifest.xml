@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jason.finalproj">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainInterface.MainActivity"/>
+        <activity android:name=".MyArticle.putout" />
+        <activity android:name=".Update.updatedata" />
+        <activity android:name=".Update.updatemessage" />
+        <activity android:name=".MyApplication.Applicant_list_Activity" />
+        <activity
+            android:name=".MyArticle.ArticleActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".jump.JumpActivity"></activity>
+        <activity android:name=".MyApplication.Application"></activity>
+        <activity android:name=".MyRecruit.Recruit"></activity>
+        <activity android:name=".MyPersonalCenter.PersonalCenter"/>
+        <activity android:name=".MySearch.Search"/>
+        <activity android:name=".Github.ReposActivity"/>
+        <activity
+            android:name=".Login.LoginActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Login.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

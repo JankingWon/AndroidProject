@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_hero_add_icon"
+        android:title="添加头像"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_hero_add_voice"
+        android:title="添加语音"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_hero_add_save"
+        android:title="保存英雄"
+        android:icon="@mipmap/white_save"
+        app:showAsAction="ifRoom" />
+</menu>

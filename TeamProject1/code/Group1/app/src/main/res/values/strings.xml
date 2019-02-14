@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">王者手册</string>
+    <string name="title1">英雄</string>
+    <string name="title2">装备</string>
+    <string name="title3">铭文</string>
+    <string name="title4">技能</string>
+    <string name="search_hero">请输入要搜索的英雄</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

@@ -1,0 +1,16 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="60dp"
+android:layout_height="60dp"
+    android:layout_margin="5dp"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/hero_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/juyoujing_icon"/>
+
+
+</android.support.constraint.ConstraintLayout>

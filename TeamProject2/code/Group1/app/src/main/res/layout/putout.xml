@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/whitesmoke">
+    <android.support.v7.widget.Toolbar
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bk4"
+        android:gravity="center"
+        android:text="招 募 发 布"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:id="@+id/type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="类别："
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <RadioGroup
+            android:id="@+id/typebutton"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="0.0dip"
+            android:layout_marginRight="15.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/match"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/radio_button_style"
+                android:checked="true"
+                android:text="室外"
+                android:textColor="@android:color/black"
+                android:textSize="15.0sp" />
+
+            <RadioButton
+                android:id="@+id/proposal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:button="@drawable/radio_button_style"
+                android:checked="false"
+                android:text="室内"
+                android:textColor="@android:color/black"
+                android:textSize="15.0sp" />
+
+            <!--<RadioButton
+                android:id="@+id/personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:button="@drawable/radio_button_style"
+                android:checked="false"
+                android:text="个人招募"
+                android:textColor="@android:color/black"
+                android:textSize="15.0sp" />-->
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@+id/type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/range"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="招募范围："
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:button="@drawable/radio_button_style"
+            android:checked="true"
+            android:text="体育"
+            android:textSize="11sp"/>
+
+        <CheckBox
+            android:id="@+id/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            android:button="@drawable/radio_button_style"
+            android:text="音乐"
+            android:textSize="11sp"/>
+
+        <CheckBox
+            android:id="@+id/ios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            android:button="@drawable/radio_button_style"
+            android:text="美术"
+            android:textSize="11sp"/>
+
+        <CheckBox
+            android:id="@+id/user_defined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/black"
+            android:button="@drawable/radio_button_style"
+            android:text="自定义"
+            android:textSize="11sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/messagetitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/range"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:id="@+id/title1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="标题:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/inputtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/messagetitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="210dp"
+        android:gravity="top"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="219dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:text="内容:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/inputContent"
+            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="5dp"
+            android:textSize="16sp"
+            android:hint=""
+            android:gravity="top"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/message_time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@+id/message"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="截止时间:"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/inputtime"
+            android:layout_width="275dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_edittext"
+            android:hint="点击选择截止时间"
+            />
+
+    </LinearLayout>
+
+    <Button
+        app:layout_constraintTop_toBottomOf="@+id/message_time"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/putoutbutton"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_nor_down"
+        android:gravity="center"
+        android:text="发布信息"
+        android:textSize="15.0sp"
+        android:textColor="@color/black"
+        />
+
+</android.support.constraint.ConstraintLayout>

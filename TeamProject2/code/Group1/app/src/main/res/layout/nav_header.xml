@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/nav_header_bg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nav_photo"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/me"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/nav_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="姓名"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/nav_photo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/nav_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="30dp"
+        android:text="男"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/nav_name"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/nav_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="1593574682@qq.com"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/nav_sex"
+        android:layout_marginTop="10dp"/>
+
+</android.support.constraint.ConstraintLayout>

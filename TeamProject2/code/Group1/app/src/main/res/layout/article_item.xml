@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/article_item_photo"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/github"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/white"/>
+
+        <TextView
+            android:id="@+id/article_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/article_item_photo"
+            android:gravity="center"
+            android:text="姓名"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/article_item_badge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/article_item_name"
+            android:src="@drawable/badge" />
+
+
+
+        <TextView
+            android:id="@+id/article_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@+id/article_item_photo"
+            android:gravity="center"
+            android:text="2017-12-31 17:23"
+
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/article_item_state"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/recruting" />
+
+
+        <View
+            android:id="@+id/article_item_div1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/article_item_photo"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/lightgray" />
+
+        <TextView
+            android:id="@+id/article_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/article_item_div1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:text="招募Java程序员"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/article_item_type"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+
+            android:layout_below="@id/article_item_div1"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:background="@color/black"
+            android:text="室内"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/article_item_body"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/article_item_title"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="招募Java程序员招募Java程序员招募Java程序员招募Java程序员招募Ja"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/article_item_div"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/article_item_body"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/article_item_div"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/linearLayout">
+
+            <ImageView
+                android:id="@+id/article_item_share"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@null"
+                android:layout_marginEnd="100dp"
+                android:src="@drawable/share" />
+
+            <ImageView
+                android:id="@+id/article_item_collection"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_alignTop="@+id/linearLayout"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@+id/article_item_date"
+                android:layout_toStartOf="@+id/article_item_date"
+                android:contentDescription="@null"
+                android:src="@drawable/collection" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

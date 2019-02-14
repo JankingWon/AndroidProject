@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/background_shape">
+
+    <ImageView
+        android:id="@+id/login_image"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/login"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+<android.support.v7.widget.CardView
+    android:id="@+id/cv_in_login"
+    android:layout_width="330dp"
+    android:layout_height="230dp"
+    android:foreground = "?attr/selectableItemBackground"
+    app:cardCornerRadius="20dp"
+    android:layout_marginTop="5dp"
+    app:layout_constraintTop_toBottomOf="@id/login_image"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/loginuser"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="65dp" />
+    <AutoCompleteTextView
+        android:id="@+id/editaccount"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:completionThreshold="3"
+        android:layout_marginLeft="60dp"
+        android:hint="账号"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/loginlock"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="25dp" />
+    <EditText
+        android:id="@+id/editpwd"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="117dp"
+        android:inputType="textPassword"
+        android:hint="密码"/>
+
+    <CheckBox
+        android:id="@+id/rmaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="175dp"
+        android:text="记住账号" />
+
+    <CheckBox
+        android:id="@+id/rmpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="175dp"
+        android:text="记住密码" />
+    <Button
+        android:id="@+id/tosignbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新用户"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="167dp"
+        android:layout_marginLeft="230dp"/>
+</android.support.v7.widget.CardView>
+<TextView
+    android:id="@+id/login_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textColor="#FFFFFF"
+    android:text="--登录即默认同意《用户使用协议》--"
+    android:layout_marginTop="20dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/cv_in_login"/>
+<com.dd.CircularProgressButton
+    android:id="@+id/loginbtn"
+    android:layout_width="200dp"
+    android:layout_height="64dp"
+    app:cpb_colorIndicator="#000000"
+    app:cpb_selectorIdle="@drawable/button_login"
+    app:cpb_selectorComplete="@drawable/button_login"
+    app:cpb_selectorError="@drawable/button_login_erro"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/login_text"
+    android:layout_marginTop="20dp"
+    android:textColor="#ffffff"
+    android:textSize="18sp"
+    android:layout_marginBottom="30dp"
+    app:cpb_textComplete="欢迎"
+    app:cpb_textError="登录失败"
+    app:cpb_textIdle="登录"
+    app:cpb_cornerRadius="48dp"/>
+</android.support.constraint.ConstraintLayout>

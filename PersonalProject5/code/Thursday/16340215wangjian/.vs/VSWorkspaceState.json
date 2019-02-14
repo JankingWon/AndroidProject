@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\src",
+    "\\app\\src\\androidTest",
+    "\\app\\src\\androidTest\\java",
+    "\\app\\src\\androidTest\\java\\com",
+    "\\app\\src\\androidTest\\java\\com\\sysu",
+    "\\app\\src\\androidTest\\java\\com\\sysu\\janking",
+    "\\app\\src\\androidTest\\java\\com\\sysu\\janking\\httpapi"
+  ],
+  "SelectedNode": "\\app\\src\\androidTest\\java\\com\\sysu\\janking\\httpapi\\ExampleInstrumentedTest.java",
+  "PreviewInSolutionExplorer": false
+}

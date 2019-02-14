@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/toolbar_r_img"
+        android:title="添加"
+        android:icon="@drawable/more"
+        app:showAsAction="ifRoom">
+        <!-- item包含menu表示该menu是item下的子菜单 -->
+        <menu>
+            <group>
+                <item android:id="@+id/toolbar_edit"
+                    android:title="编辑文章"
+                    app:showAsAction="ifRoom" />
+                <item android:id="@+id/toolbar_add"
+                    android:title="申请加入/取消申请"
+                    app:showAsAction="ifRoom" />
+                <item android:id="@+id/toolbar_publisher"
+                    android:title="查看招募人"
+                    app:showAsAction="ifRoom" />
+                <item android:id="@+id/toolbar_applicant"
+                    android:title="查看申请人"
+                    app:showAsAction="ifRoom" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">活动圈</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+</resources>

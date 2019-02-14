@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/inscription_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimaryDark">
+
+
+
+        <android.support.v7.widget.SearchView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/inscription_edit_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:queryHint="请输入你需要搜索的铭文"
+            android:textColor="@color/white"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/inscriptionPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/inscription_toolbar"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/gray1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/blue1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintLeft_toRightOf="@+id/gray1" />
+
+        <ImageView
+            android:id="@+id/blue2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintLeft_toRightOf="@id/blue1" />
+
+        <ImageView
+            android:id="@+id/gray2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/blue2" />
+
+        <ImageView
+            android:id="@+id/gray3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/gray2" />
+
+        <ImageView
+            android:id="@+id/red1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/gray3" />
+
+        <ImageView
+            android:id="@+id/red2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/red1" />
+
+        <ImageView
+            android:id="@+id/gray4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/red2" />
+
+        <ImageView
+            android:id="@+id/blue3"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintTop_toBottomOf="@id/gray1"
+            android:paddingLeft="15dp" />
+
+        <ImageView
+            android:id="@+id/blue4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintLeft_toRightOf="@id/blue3"
+            app:layout_constraintTop_toBottomOf="@id/blue1" />
+
+        <ImageView
+            android:id="@+id/gray5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/blue4"
+            app:layout_constraintTop_toBottomOf="@id/blue1" />
+
+        <ImageView
+            android:id="@+id/gray6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/gray5"
+            app:layout_constraintTop_toBottomOf="@id/blue1" />
+
+        <ImageView
+            android:id="@+id/gray7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/gray6"
+            app:layout_constraintTop_toBottomOf="@id/blue1" />
+
+        <ImageView
+            android:id="@+id/red3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/gray7"
+            app:layout_constraintTop_toBottomOf="@id/blue1" />
+
+        <ImageView
+            android:id="@+id/red4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/red3"
+            app:layout_constraintTop_toBottomOf="@id/blue1" />
+
+        <ImageView
+            android:id="@+id/blue5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintTop_toBottomOf="@id/blue3" />
+
+        <ImageView
+            android:id="@+id/gray8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/blue5"
+            app:layout_constraintTop_toBottomOf="@id/blue3" />
+
+        <ImageView
+            android:id="@+id/gray9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/gray8"
+            app:layout_constraintTop_toBottomOf="@id/blue3" />
+
+        <ImageView
+            android:id="@+id/green1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/gray9"
+            app:layout_constraintTop_toBottomOf="@id/blue3" />
+
+        <ImageView
+            android:id="@+id/green2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/green1"
+            app:layout_constraintTop_toBottomOf="@id/blue3" />
+
+        <ImageView
+            android:id="@+id/gray10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/green2"
+            app:layout_constraintTop_toBottomOf="@id/blue3" />
+
+        <ImageView
+            android:id="@+id/gray11"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/gray10"
+            app:layout_constraintTop_toBottomOf="@id/blue3" />
+
+        <ImageView
+            android:id="@+id/red5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/gray11"
+            app:layout_constraintTop_toBottomOf="@id/blue3" />
+
+        <ImageView
+            android:id="@+id/blue6"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintTop_toBottomOf="@id/blue5"
+            android:paddingLeft="15dp"/>
+        <ImageView
+            android:id="@+id/gray12"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/blue6"
+            app:layout_constraintTop_toBottomOf="@id/blue5" />
+
+        <ImageView
+            android:id="@+id/green3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/gray12"
+            app:layout_constraintTop_toBottomOf="@id/blue5" />
+
+        <ImageView
+            android:id="@+id/green4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/green3"
+            app:layout_constraintTop_toBottomOf="@id/blue5" />
+
+        <ImageView
+            android:id="@+id/green5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/green4"
+            app:layout_constraintTop_toBottomOf="@id/blue5" />
+
+        <ImageView
+            android:id="@+id/gray13"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/green5"
+            app:layout_constraintTop_toBottomOf="@id/blue5" />
+
+        <ImageView
+            android:id="@+id/red6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/gray13"
+            app:layout_constraintTop_toBottomOf="@id/blue5" />
+
+        <ImageView
+            android:id="@+id/blue7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintTop_toBottomOf="@id/blue6" />
+
+        <ImageView
+            android:id="@+id/gray14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/blue7"
+            app:layout_constraintTop_toBottomOf="@id/blue6" />
+
+        <ImageView
+            android:id="@+id/green6"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/gray14"
+            app:layout_constraintTop_toBottomOf="@id/blue6" />
+
+        <ImageView
+            android:id="@+id/green7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/green6"
+            app:layout_constraintTop_toBottomOf="@id/blue6" />
+
+        <ImageView
+            android:id="@+id/green8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/green7"
+            app:layout_constraintTop_toBottomOf="@id/blue6" />
+
+        <ImageView
+            android:id="@+id/green9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/green8"
+            app:layout_constraintTop_toBottomOf="@id/blue6" />
+
+        <ImageView
+            android:id="@+id/gray15"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/green9"
+            app:layout_constraintTop_toBottomOf="@id/blue6" />
+
+        <ImageView
+            android:id="@+id/red7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/gray15"
+            app:layout_constraintTop_toBottomOf="@id/blue6" />
+
+        <ImageView
+            android:id="@+id/blue8"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintTop_toBottomOf="@id/blue7"
+            android:paddingLeft="15dp"/>
+
+        <ImageView
+            android:id="@+id/gray16"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/blue8"
+            app:layout_constraintTop_toBottomOf="@id/blue7" />
+
+        <ImageView
+            android:id="@+id/gray17"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/gray16"
+            app:layout_constraintTop_toBottomOf="@id/blue7" />
+
+        <ImageView
+            android:id="@+id/green10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/green"
+            app:layout_constraintLeft_toRightOf="@id/gray17"
+            app:layout_constraintTop_toBottomOf="@id/blue7" />
+
+        <ImageView
+            android:id="@+id/gray18"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/green10"
+            app:layout_constraintTop_toBottomOf="@id/blue7" />
+
+        <ImageView
+            android:id="@+id/gray19"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/gray18"
+            app:layout_constraintTop_toBottomOf="@id/blue7" />
+
+        <ImageView
+            android:id="@+id/red8"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/gray19"
+            app:layout_constraintTop_toBottomOf="@id/blue7" />
+
+        <ImageView
+            android:id="@+id/gray20"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintTop_toBottomOf="@id/blue8" />
+
+        <ImageView
+            android:id="@+id/blue9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintLeft_toRightOf="@id/gray20"
+            app:layout_constraintTop_toBottomOf="@id/blue8" />
+
+        <ImageView
+            android:id="@+id/blue10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/blue"
+            app:layout_constraintLeft_toRightOf="@id/blue9"
+            app:layout_constraintTop_toBottomOf="@id/blue8" />
+
+        <ImageView
+            android:id="@+id/gray21"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/blue10"
+            app:layout_constraintTop_toBottomOf="@id/blue8" />
+
+        <ImageView
+            android:id="@+id/gray22"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/gray21"
+            app:layout_constraintTop_toBottomOf="@id/blue8" />
+
+        <ImageView
+            android:id="@+id/red9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/gray22"
+            app:layout_constraintTop_toBottomOf="@id/blue8" />
+
+        <ImageView
+            android:id="@+id/red10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/red"
+            app:layout_constraintLeft_toRightOf="@id/red9"
+            app:layout_constraintTop_toBottomOf="@id/blue8" />
+
+        <ImageView
+            android:id="@+id/gray23"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="2dp"
+            android:src="@mipmap/gray"
+            app:layout_constraintLeft_toRightOf="@id/red10"
+            app:layout_constraintTop_toBottomOf="@id/blue8" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        app:layout_constraintTop_toBottomOf="@id/inscriptionPic"
+        android:id="@+id/inscriptionChoose"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="颜\n色"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/inscriptionColorChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="等\n级"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/inscriptionLevelChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="类\n型"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/inscriptionTypeChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/inscriptionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/inscriptionChoose"
+        android:gravity="center">
+        <Button
+            android:id="@+id/allProperty"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:text="加成"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/inscriptionCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:text="清空"
+            android:layout_marginLeft="5dp"/>
+        <Button
+            android:id="@+id/inscriptionPicShow"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:text="隐藏"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/inscriptionList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/inscriptionBtn"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </ListView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4D4D4D</item>
+        <item name="colorPrimaryDark">#333333</item>
+        <item name="colorAccent">#B92525</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="NoTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4D4D4D</item>
+        <item name="colorPrimaryDark">#333333</item>
+        <item name="colorAccent">#B92525</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="android:colorBackground">@color/white</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <style name="Theme.ToolBar.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:icon">@mipmap/delete</item>
+    </style>
+    <style name="AppWelcome" parent="AppTheme">
+        <item name="android:windowBackground">@mipmap/launch</item>
+    </style>
+
+</resources>

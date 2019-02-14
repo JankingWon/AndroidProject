@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+
+    <ImageButton
+        android:id="@+id/shorticon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/coin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂无新消息"
+        android:id="@+id/appwidget_text" />
+</RelativeLayout>

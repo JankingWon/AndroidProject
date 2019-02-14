@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 可使用就为point_focured形状，  否则为point_nomal形状
+             所以java代码中根据setEnabled(false)方法来确定显示什么形状-->
+    <item android:drawable="@drawable/point_normal"  android:state_enabled="false"></item>
+    <item android:drawable="@drawable/point_focus" android:state_enabled="true"></item>
+
+</selector>

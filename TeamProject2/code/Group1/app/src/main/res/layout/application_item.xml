@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_gravity="center"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/application_item_photo"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/me"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/white"/>
+
+        <TextView
+            android:id="@+id/application_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/application_item_photo"
+            android:gravity="center"
+            android:text="姓名"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/application_item_badge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="19dp"
+            android:layout_toRightOf="@+id/application_item_name"
+            android:src="@drawable/badge" />
+        <TextView
+            android:id="@+id/application_item_type"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/application_item_badge"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="9dp"
+            android:background="@color/purple"
+            android:gravity="center"
+            android:text="活动"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/application_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@+id/application_item_photo"
+            android:gravity="center"
+            android:text="2017-12-31 17:23"
+
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/application_item_state"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/auditing" />
+
+        <TextView
+            android:id="@+id/application_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/application_item_photo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:text="招募Java程序员"
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:id="@+id/application_item_body"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/application_item_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="招募Java程序员招募Java程序员招募Java程序员招募Java程序员招募Ja"
+            android:textSize="17sp" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

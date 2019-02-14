@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:clickable="false"
+    >
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imgUrl"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="2dp"
+        android:background="@mipmap/tiejian"
+        android:src="@mipmap/border"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/equip_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="名称"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/equip_price"
+            android:text="200"
+            android:textColor="@color/white"
+            android:layout_marginTop="1dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"/>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/coin"/>
+    </LinearLayout>
+
+</LinearLayout>

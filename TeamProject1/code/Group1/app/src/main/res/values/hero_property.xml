@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="herocategory">
+        <item>全部</item>
+        <item>法师</item>
+        <item>刺客</item>
+        <item>射手</item>
+        <item>辅助</item>
+        <item>战士</item>
+        <item>坦克</item>
+    </string-array>
+    <string-array name="herocategory_add">
+        <item>法师</item>
+        <item>刺客</item>
+        <item>射手</item>
+        <item>辅助</item>
+        <item>战士</item>
+        <item>坦克</item>
+    </string-array>
+
+    <!--<string-array name="herohard">-->
+        <!--<item>全部难度</item>-->
+        <!--<item>无需脑子</item>-->
+        <!--<item>轻松上手</item>-->
+        <!--<item>偶尔能秀</item>-->
+        <!--<item>勤学苦练</item>-->
+        <!--<item>难到退游</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="herohard_add">-->
+        <!--<item>无需脑子</item>-->
+        <!--<item>轻松上手</item>-->
+        <!--<item>偶尔能秀</item>-->
+        <!--<item>勤学苦练</item>-->
+        <!--<item>难到退游</item>-->
+    <!--</string-array>-->
+
+</resources>

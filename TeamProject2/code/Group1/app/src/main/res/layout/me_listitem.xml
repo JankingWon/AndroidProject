@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    >
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/personalpage"/>
+
+    <TextView
+        android:id="@+id/item_function"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:gravity="center"
+        android:text="个人中心"
+        android:textSize="16sp"/>
+</LinearLayout>

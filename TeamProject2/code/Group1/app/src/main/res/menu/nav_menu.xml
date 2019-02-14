@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/edit"
+            android:title="编辑信息"/>
+        <item
+            android:id="@+id/nav_apply"
+            android:icon="@drawable/apply"
+            android:title="我的申请"
+            app:actionLayout="@layout/notice"/>
+        <item
+            android:id="@+id/nav_recruit"
+            android:icon="@drawable/recruit_solid"
+            android:title="我的招募"
+            app:actionLayout="@layout/notice"/>
+        <item
+            android:id="@+id/nav_badge"
+            android:icon="@drawable/badge"
+            android:visible="false"
+            android:title="徽章考核"/>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exit"
+            android:title="退出"/>
+    </group>
+</menu>

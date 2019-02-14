@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Write like HelloWorld?"
+        android:gravity="top"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="fill"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <!--按钮均匀分布-->
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="SAVE"
+            android:layout_marginEnd="30dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_load"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="LOAD"
+            android:layout_marginEnd="30dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="0dp"
+            android:text="CLEAR"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
