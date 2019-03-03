@@ -13,7 +13,7 @@
 [相关博客](https://blog.janking.cn/post/android1.html) 
 
 ### 基础的事件处理
-![效果](http://blog.janking.cn/post/android2/success.png) 
+![效果](http://blog.janking.cn/post/android2/success.jpg) 
 
 [查看报告](PersonalProject1/report/Thursday/16340215wangjian/16340215王建lab2) 
 
