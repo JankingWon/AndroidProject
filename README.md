@@ -41,3 +41,44 @@
 
 ## PersonalProject2
 
+### Broadcast 使用和 Notification、EventBus 编程基础
+
+- 掌握 Broadcast 编程基础。
+- 掌握动态注册 Broadcast 和静态注册 Broadcast。
+- 掌握Notification 编程基础。
+- 掌握 EventBus 编程基础。
+
+![效果](https://blog.janking.cn/post/android4/broadcast.gif) 
+
+[查看报告](PersonalProject2/report/Thursday/16340215wangjian/16340215王建lab4and5) 
+
+[相关博客](https://blog.janking.cn/post/android4.html) 
+
+### AppWidget 使用
+
+- 复习 Broadcast 编程基础。
+- 复习动态注册 Broadcast 和静态注册 Broadcast 。
+- 掌握 AppWidget 编程基础。
+
+![效果](http://blog.janking.cn/post/android5/GIF-1540489328401.gif) 
+
+[查看报告](PersonalProject2/report/Thursday/16340215wangjian/16340215王建lab4and5) 
+
+[相关博客](https://blog.janking.cn/post/android5.html) 
+
+## PersonalProject3
+
+### 数据存储（上）
+
+- 学习SharedPreference的基本使用。
+- 学习Android中常见的文件操作方法。
+- 复习Android界面编程。
+
+![效果](http://blog.janking.cn/post/android6/GIF.gif) 
+
+[查看报告](PersonalProject3/report/Thursday/16340215wangjian/16340215王建lab6and7) 
+
+[相关博客](https://blog.janking.cn/post/android6.html) 
+
+
+
