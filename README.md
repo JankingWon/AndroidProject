@@ -154,12 +154,26 @@
 
 ## TeamProject1
 
-一个包括王者荣耀英雄人物头像、称号、名字、位置、生存能力值、攻击伤害值、技能效果值、上手难度值等信息的APP
+``一个包括王者荣耀英雄人物头像、称号、名字、位置、生存能力值、攻击伤害值、技能效果值、上手难度值等信息的APP``
 
-**负责:** 英雄概览、英雄详情、英雄操作（增删改查）、启动动画、背景音乐、英雄与装备页面的跳转
+**负责: 英雄概览、英雄详情、英雄操作（增删改查）、启动动画、背景音乐、英雄与装备页面的跳转**
+
+![](http://blog.janking.cn/post/android-pro1/1543053765227.png)
+![](http://blog.janking.cn/post/android-pro1/1543053897874.png)
+![](http://blog.janking.cn/post/android-pro1/detail_hero.png)
 
 [用户说明文档](TeamProject1/report/Group1/用户说明文档)
 
 [个人报告](TeamProject1/report/Group1/16340215wangjian/AndroidReport)
 
+[相关博客](https://blog.janking.cn/post/android-pro1.html)
+
 ## TeamProject2
+
+``活动圈``
+
+[视频演示地址](https://github.com/JankingWon/AndroidProject/blob/master/TeamProject2/report/Group1/%E5%B1%95%E7%A4%BA%E8%B5%84%E6%96%99/group1demo.mp4)
+
+[用户说明文档](TeamProject2/report/Group1/项目文档/用户说明文档)
+
+[个人报告](TeamProject2/report/Group1/个人报告/16340215_王建_个人报告)
