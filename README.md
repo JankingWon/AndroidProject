@@ -152,9 +152,9 @@
 [相关博客](https://blog.janking.cn/post/android11.html) 
 
 
-## TeamProject1
+## TeamProject ———— "王者手册"
 
-``一个包括王者荣耀英雄人物头像、称号、名字、位置、生存能力值、攻击伤害值、技能效果值、上手难度值等信息的APP``
+> 一个包括王者荣耀英雄人物头像、称号、名字、位置、生存能力值、攻击伤害值、技能效果值、上手难度值等信息的APP
 
 **负责: 英雄概览、英雄详情、英雄操作（增删改查）、启动动画、背景音乐、英雄与装备页面的跳转**
 
@@ -168,9 +168,9 @@
 
 [相关博客](https://blog.janking.cn/post/android-pro1.html)
 
-## TeamProject2
+## TeamProject2 ———— "活动圈"
 
-``活动圈``
+> 活动圈的主要功能是发布其他人可以参与的活动，邀请陌生人参与到自己的活动中来，同时，也可以参与其他人发起的活动，由此实现社交的目的。
 
 [视频演示地址](https://github.com/JankingWon/AndroidProject/blob/master/TeamProject2/report/Group1/%E5%B1%95%E7%A4%BA%E8%B5%84%E6%96%99/group1demo.mp4)
 
