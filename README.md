@@ -81,4 +81,72 @@
 [相关博客](https://blog.janking.cn/post/android6.html) 
 
 
+### 数据存储（下）
 
+- 学习 SQLite 数据库的使用。
+- 学习 ContentProvider 的使用。
+- 复习 Android 界面编程。
+
+![效果](http://blog.janking.cn/post/android7/GIF-1542127554823.gif) 
+
+[查看报告](PersonalProject3/report/Thursday/16340215wangjian/16340215王建lab6and7) 
+
+[相关博客](https://blog.janking.cn/post/android7.html) 
+
+
+## PersonalProject4
+
+### 制作简单音乐播放器
+
+- 学会使用 MediaPlayer
+- 学会简单的多线程编程，使用 Handler 更新 UI
+- 学会使用 Service 进行后台工作
+- 学会使用 Service 与 Activity 进行通信
+
+![效果](http://blog.janking.cn/post/android8/gif5%E6%96%B0%E6%96%87%E4%BB%B6.gif) 
+
+[查看报告](PersonalProject4/report/Thursday/16340215wangjian/16340215王建lab8) 
+
+[相关博客](https://blog.janking.cn/post/android8.html) 
+
+### RxJava（RxAndroid）的简单使用
+
+- 学会使用 MediaPlayer
+- 学习 RxJava，使用 RxJava 更新 UI
+- 学会使用 Service 进行后台工作
+- 学会使用 Service 与 Activity 进行通信
+
+![效果](http://blog.janking.cn/post/android8/gif5%E6%96%B0%E6%96%87%E4%BB%B6.gif) 
+
+[查看报告](PersonalProject5/report/Thursday/16340215王建lab8) 
+
+[相关博客](https://blog.janking.cn/post/android9.html) 
+
+## PersonalProject5
+
+
+### HttpURLConnection 的使用以及解析 JSON 数据
+
+- 学会使用 HttpURLConnection 请求访问 Web 服务
+- 学习 Android 线程机制，学会线程更新 UI
+- 学会解析 JSON 数据
+- 学习 CardView 布局技术
+
+![效果](http://blog.janking.cn/post/android10/gif5.gif) 
+
+[查看报告](PersonalProject5/report/Thursday/16340215王建lab10) 
+
+[相关博客](https://blog.janking.cn/post/android10.html) 
+
+### Retrofit2 + RxJava2 + OkHttp + Restful 应用
+
+- 理解Restful接口
+- 学会使用Retrofit2
+- 复习使用RxJava
+- 学会使用OkHttp
+
+![效果](http://blog.janking.cn/post/android11/%E6%95%88%E6%9E%9C.gif) 
+
+[查看报告](PersonalProject5/report/Thursday/16340215王建lab11) 
+
+[相关博客](https://blog.janking.cn/post/android11.html) 
