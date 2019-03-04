@@ -150,3 +150,16 @@
 [查看报告](PersonalProject5/report/Thursday/16340215王建lab11) 
 
 [相关博客](https://blog.janking.cn/post/android11.html) 
+
+
+## TeamProject1
+
+一个包括王者荣耀英雄人物头像、称号、名字、位置、生存能力值、攻击伤害值、技能效果值、上手难度值等信息的APP
+
+**负责:** 英雄概览、英雄详情、英雄操作（增删改查）、启动动画、背景音乐、英雄与装备页面的跳转
+
+[用户说明文档](TeamProject1/report/Group1/用户说明文档)
+
+[个人报告](TeamProject1/report/Group1/16340215wangjian/AndroidReport)
+
+## TeamProject2
