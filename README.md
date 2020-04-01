@@ -11,8 +11,6 @@
 
 ![效果](http://blog.janking.cn/post/android1/20180929230801598.png) 
 
-[查看报告](PersonalProject1/report/Thursday/16340215wangjian/16340215王建lab1) 
-
 [相关博客](https://blog.janking.cn/post/android1.html) 
 
 ### 基础的事件处理
@@ -21,8 +19,6 @@
 - 学会弹出对话框，并定制对话框中的内容，能对确定和取消按钮的事件做处理。
 
 ![效果](http://blog.janking.cn/post/android2/success.jpg) 
-
-[查看报告](PersonalProject1/report/Thursday/16340215wangjian/16340215王建lab2) 
 
 [相关博客](https://blog.janking.cn/post/android2.html) 
 
@@ -34,8 +30,6 @@
 - 学习FloatingActionBar的用法。
 
 ![效果](http://blog.janking.cn/post/android3/1539495186387.png) 
-
-[查看报告](PersonalProject1/report/Thursday/16340215wangjian/16340215王建lab3) 
 
 [相关博客](https://blog.janking.cn/post/android3.html) 
 
@@ -50,8 +44,6 @@
 
 ![效果](https://blog.janking.cn/post/android4/broadcast.gif) 
 
-[查看报告](PersonalProject2/report/Thursday/16340215wangjian/16340215王建lab4and5) 
-
 [相关博客](https://blog.janking.cn/post/android4.html) 
 
 ### AppWidget 使用
@@ -61,8 +53,6 @@
 - 掌握 AppWidget 编程基础。
 
 ![效果](http://blog.janking.cn/post/android5/GIF-1540489328401.gif) 
-
-[查看报告](PersonalProject2/report/Thursday/16340215wangjian/16340215王建lab4and5) 
 
 [相关博客](https://blog.janking.cn/post/android5.html) 
 
@@ -76,8 +66,6 @@
 
 ![效果](http://blog.janking.cn/post/android6/GIF.gif) 
 
-[查看报告](PersonalProject3/report/Thursday/16340215wangjian/16340215王建lab6and7) 
-
 [相关博客](https://blog.janking.cn/post/android6.html) 
 
 
@@ -88,8 +76,6 @@
 - 复习 Android 界面编程。
 
 ![效果](http://blog.janking.cn/post/android7/GIF-1542127554823.gif) 
-
-[查看报告](PersonalProject3/report/Thursday/16340215wangjian/16340215王建lab6and7) 
 
 [相关博客](https://blog.janking.cn/post/android7.html) 
 
@@ -105,8 +91,6 @@
 
 ![效果](http://blog.janking.cn/post/android8/gif5%E6%96%B0%E6%96%87%E4%BB%B6.gif) 
 
-[查看报告](PersonalProject4/report/Thursday/16340215wangjian/16340215王建lab8) 
-
 [相关博客](https://blog.janking.cn/post/android8.html) 
 
 ### RxJava（RxAndroid）的简单使用
@@ -117,8 +101,6 @@
 - 学会使用 Service 与 Activity 进行通信
 
 ![效果](http://blog.janking.cn/post/android8/gif5%E6%96%B0%E6%96%87%E4%BB%B6.gif) 
-
-[查看报告](PersonalProject5/report/Thursday/16340215王建lab8) 
 
 [相关博客](https://blog.janking.cn/post/android9.html) 
 
@@ -134,8 +116,6 @@
 
 ![效果](http://blog.janking.cn/post/android10/gif5.gif) 
 
-[查看报告](PersonalProject5/report/Thursday/16340215王建lab10) 
-
 [相关博客](https://blog.janking.cn/post/android10.html) 
 
 ### Retrofit2 + RxJava2 + OkHttp + Restful 应用
@@ -146,8 +126,6 @@
 - 学会使用OkHttp
 
 ![效果](http://blog.janking.cn/post/android11/%E6%95%88%E6%9E%9C.gif) 
-
-[查看报告](PersonalProject5/report/Thursday/16340215王建lab11) 
 
 [相关博客](https://blog.janking.cn/post/android11.html) 
 
@@ -168,10 +146,6 @@
 ![](http://blog.janking.cn/post/android-pro1/1543053897874.png)
 ![](http://blog.janking.cn/post/android-pro1/detail_hero.png)
 
-[用户说明文档](TeamProject1/report/Group1/用户说明文档)
-
-[个人报告](TeamProject1/report/Group1/16340215wangjian/AndroidReport)
-
 [相关博客](https://blog.janking.cn/post/android-pro1.html)
 
 ## TeamProject2 ———— "活动圈"
@@ -185,11 +159,3 @@
 - “招募发布”页面
 - 项目展示
 - 小组报告文档编写
-
-
-
-[视频演示地址](https://github.com/JankingWon/AndroidProject/blob/master/TeamProject2/report/Group1/%E5%B1%95%E7%A4%BA%E8%B5%84%E6%96%99/group1demo.mp4)
-
-[用户说明文档](TeamProject2/report/Group1/项目文档/用户说明文档)
-
-[个人报告](TeamProject2/report/Group1/个人报告/16340215_王建_个人报告)
