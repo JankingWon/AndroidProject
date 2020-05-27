@@ -1,8 +1,4 @@
 # AndroidProject
-{:.no_toc}
-
-* 目录
-{:toc}
 
 ## PersonalProject1
 ### 基本的UI设计
