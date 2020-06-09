@@ -173,9 +173,7 @@
 - 项目展示
 - 小组报告文档编写
 
-![](https://github.com/JankingWon/AndroidProject/blob/gh-pages/TeamProject2/1548315381550.png)
-![](https://github.com/JankingWon/AndroidProject/blob/gh-pages/TeamProject2/1548320758596.png)
-![](https://github.com/JankingWon/AndroidProject/blob/gh-pages/TeamProject2/1548329953219.png)
-![](https://github.com/JankingWon/AndroidProject/blob/gh-pages/TeamProject2/1548315202668.png)
-
-[项目文档](https://github.com/JankingWon/SYSUMaterial/tree/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%BC%80%E5%8F%91Android/TeamProject2/report/Group1/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3)
+![](https://cdn.jsdelivr.net/gh/jankingwon/androidproject@gh-pages/TeamProject2/1548315381550.png)
+![](https://cdn.jsdelivr.net/gh/jankingwon/androidproject@gh-pages/TeamProject2/1548320758596.png)
+![](https://cdn.jsdelivr.net/gh/jankingwon/androidproject@gh-pages/TeamProject2/1548329953219.png)
+![](https://cdn.jsdelivr.net/gh/jankingwon/androidproject@gh-pages/TeamProject2/1548315202668.png)
